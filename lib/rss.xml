@@ -1,3 +1,173 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Logs de keso]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Logs de keso</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 21 Sep 2024 23:55:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 21 Sep 2024 23:55:31 GMT</pubDate><copyright><![CDATA[Kesadilla]]></copyright><ttl>60</ttl><dc:creator>Kesadilla</dc:creator><item><title><![CDATA[Logs de keso]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Logs de keso]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://kebpericles.github.io/logsdekeso/</link><image><url>https://kebpericles.github.io/logsdekeso/lib/media/favicon.png</url><title>Logs de keso</title><link>https://kebpericles.github.io/logsdekeso/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 22 Sep 2024 01:05:55 GMT</lastBuildDate><atom:link href="https://kebpericles.github.io/logsdekeso/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 22 Sep 2024 01:05:50 GMT</pubDate><copyright><![CDATA[Kesadilla]]></copyright><ttl>60</ttl><dc:creator>Kesadilla</dc:creator><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br>La siguiente notación será usada para este formulario:<br><br><br><br><br><br>\frac{d}{dx} x = 1
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} c = 0
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} c \cdot f(x) = c \cdot \frac{d}{dx} f(x)
+Copiar<br><br><br><br>
+<br>Linealidad de la derivada
+<br><br><br><br><br>\frac{d}{dx} (f(x) + g(x) - h(x)) = \frac{d}{dx} f(x) + \frac{d}{dx} g(x) - \frac{d}{dx} h(x)
+Copiar<br><br><br><br>
+<br>Linealidad de la derivada
+<br>Derivada de una suma de funciones
+<br><br><br><br><br>\frac{d}{dx} f(g(x)) = \frac{df}{dg} \cdot \frac{dg}{dx}
+Copiar<br><br><br><br><br><br>\frac{d}{dx} f(g(h(x))) = \frac{df}{dg} \cdot \frac{dg}{dh} \cdot \frac{dh}{dx}
+Copiar<br><br><br><br>
+<br>Regla de la cadena
+<br><br><br><br><br>\frac{d}{dx} (u \cdot v) = u\cdot\frac{dv}{dx} + v\cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br>\frac{d}{dx} (u \cdot v \cdot w) = \frac{du}{dx}\cdot v \cdot w +  u\cdot\frac{dv}{dx}\cdot w + u \cdot v \cdot \frac{dw}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} \frac{u}{v} = \frac{\displaystyle v\cdot\frac{du}{dx} - u \cdot \frac{dv}{dx}}{\displaystyle v^2}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} u^n = n\cdot u^{n-1} \cdot \frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} log_c(u) = \frac{1}{u\cdot ln(c)}\cdot \frac{du}{dx}
+Copiar<br><br><br><br><br><br>\frac{d}{dx} ln(u) = \frac{1}{u}\cdot \frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} e^u = e^u \cdot \frac{du}{dx}
+Copiar<br><br><br><br><br><br>\frac{d}{dx} c^u = c^u\cdot ln(a) \cdot \frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} u^v = v \cdot u^{v-1} \cdot \frac{du}{dx} + u^v \cdot ln(u) \cdot \frac{dv}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} |x| = \frac{x}{ |x| }
+Copiar<br><br><br><br><br><br><br><br>\frac{d}{dx} sin(u) = cos(u)\cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} cos(u) = -sin(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} tan(u) = sec^2(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} cot(u) = -csc^2(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} sec(u) = sec(u)\cdot tan(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} csc(u) = -csc(u)\cdot cot(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arcsin(u) = \frac{1}{\sqrt{1-u^2}}\cdot\frac{du}{dx}
+Copiar<br><br><br><br>
+<br>Seno inverso
+<br><br><br><br><br>\frac{d}{dx} arccos(u) = -\frac{1}{\sqrt{1-u^2}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br>
+<br>Coseno inverso
+<br><br><br><br><br>\frac{d}{dx} arctan(u) = \frac{1}{{1+u^2}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br>
+<br>Tangente inversa
+<br><br><br><br><br>\frac{d}{dx} arccot(u) = -\frac{1}{{1+u^2}}  \cdot\frac{du}{dx}
+Copiar<br><br><br><br>
+<br>Cotangente inversa
+<br><br><br><br><br>\frac{d}{dx} arcsec(u) = \frac{1}{u\cdot\sqrt{u^2-1}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br>
+<br>Secante inversa
+<br><br><br><br><br>\frac{d}{dx} arccsc(u) = -\frac{1}{u\cdot\sqrt{u^2-1}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br>
+<br>Cosecante inversa
+<br><br><br><br><br><br>\frac{d}{dx} sinh(u) = cosh(u)\cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} cosh(u) = sinh(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} tanh(u) = sec^2(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} coth(u) = -csc^2(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} sech(u) = -sech(u)\cdot tanh(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} csch(u) = -csch(u)\cdot coth(u) \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arcsinh(u) = \frac{1}{\sqrt{1+u^2}}\cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arccosh(u) = \frac{1}{\sqrt{u^2-1}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arctanh(u) = \frac{1}{{1-u^2}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arccoth(u) = -\frac{1}{{1-u^2}}  \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arcsech(u) = -\frac{1}{u\cdot\sqrt{1-u^2}} \cdot\frac{du}{dx}
+Copiar<br><br><br><br><br><br><br>\frac{d}{dx} arccsch(u) = -\frac{1}{ |u|\cdot\sqrt{1+u^2}} \cdot\frac{du}{dx}
+Copiar<br><br>]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/derivadas.html</link><guid isPermaLink="false">formularios/Derivadas.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:54 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br>La siguiente notación será usada para este formulario:<br><br><br><br><br><br><br>\int dx = x + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int c\cdot du = c \int du
+Copiar<br><br><br><br><br><br>\int(du + dv + dw) = \int du + \int dv - \int dw
+Copiar<br><br><br><br><br><br><br>\int u^n du = \frac{u^{n+1}}{n+1} + \mathfrak{C}, (n\neq -1)
+Copiar<br><br><br><br><br><br>\int u^{-1}du = ln(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int e^udu = e^u + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int a^udu = \frac{a^u}{ln(a)} + \mathfrak{C}
+Copiar<br><br><br><br><br><br><br>\int sin(u)du = -cos(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int cos(u)du = sin(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int tan(u)du = -ln(cos(u)) + \mathfrak{C} = ln(sec(u)) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int cot(u)du = ln(sin(u)) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int sec(u)du = ln(sec(u) + tan(u)) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int csc(u)du = ln(csc(u) - cot(u)) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int sec^2(u)du = tan(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int csc^2(u)du = -cot(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int sec(u)tan(u)du = sec(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int csc(u)cot(u)du = -csc(u) + \mathfrak{C}
+Copiar<br><br><br><br><br><br><br>\int \frac{du}{u^2 + c^2} = \frac{1}{c}arctan\left(\frac{u}{a}\right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \frac{du}{u^2 - c^2} = \frac{1}{2c}ln \left(\frac{u-c}{u+c}\right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \frac{du}{c^2 - u^2} = \frac{1}{2c}ln \left(\frac{c+u}{c-u}\right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \frac{du}{\sqrt{c^2-u^2}} = arcsin \left( \frac{u}{a} \right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \frac{du}{u\sqrt{u^2-c^2}} = \frac{1}{c} arcsec \left( \frac{u}{a} \right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \frac{du}{\sqrt{u^2 \pm c^2}} = ln\left( u + \sqrt{u^2 \pm c^2} \right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \sqrt{c^2-u^2}du = \frac{u}{2}\sqrt{c^2-u^2} + \frac{c^2}{2}arcsin\left( \frac{u}{a} \right) + \mathfrak{C}
+Copiar<br><br><br><br><br><br>\int \sqrt{u^2\pm c^2}du = \frac{u}{2}\sqrt{u^2 \pm c^2} \pm \frac{c^2}{2}ln\left( u + \sqrt{u^2 + c^2} \right) + \mathfrak{C}
+Copiar<br><br><br><br>
+<br><a class="internal-link" data-href="./Derivadas.md" href="https://kebpericles.github.io/logsdekeso/formularios/derivadas.html" target="_self" rel="noopener">Derivadas</a>
+]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/integrales.html</link><guid isPermaLink="false">formularios/Integrales.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:55 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br>V(s) = V_0^+ e^{-\gamma s} - V_0^- e^{\gamma s}
+Copiar<br><br><br>V(s) = V_0^+ e^{-\gamma s} - V_0^- e^{\gamma s}
+Copiar<br><br><br><br>\Gamma(0) = \frac{V_{0}^{-}}{V_{0}^{+}} = \frac{Z_L-Z_{0}}{Z_{L}+Z_{0}}
+Copiar<br><br><br>\Gamma(0) = \frac{V_{0}^{-}}{V_{0}^{+}} = \frac{Z_L-Z_{0}}{Z_{L}+Z_{0}}
+Copiar<br><br><br><br>\gamma=\alpha+j\beta
+Copiar<br><br><br>\gamma=\alpha+j\beta
+Copiar<br><br><br>: Constante de atenuación<br><br>\beta = \frac{\omega}{v_{p}}
+Copiar<br><br><br>\beta = \frac{\omega}{v_{p}}
+Copiar<br><br><br><br>v_p=\frac{c}{\sqrt{ \varepsilon_{r} }}
+Copiar<br><br><br>v_p=\frac{c}{\sqrt{ \varepsilon_{r} }}
+Copiar<br><br><br><br>
+<br>R. Neri and Beltrán Porragas Luis H., Líneas de transmisión, 1a ed. Xalapa, México: Universidad Veracruzana, 2013. (pp. 69 - 71)
+]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/líneas-de-transmisión.html</link><guid isPermaLink="false">formularios/Líneas de transmisión.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:55 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>\eta = \frac{P_{BL}}{P_T}
+Copiar<br><br><br><br><br><br><br><br>P_C = \frac{A^2}{2} [W]
+Copiar<br><br><br><br>P_{BL} = \frac{1}{2} \overline{m^2(t)} [W] = \frac{1}{2T} \int_0^T m^2(t) \, dt
+Copiar<br><br><br>P_{BL} = \frac{1}{2} \overline{m^2(t)} [W] = \frac{1}{2T} \int_0^T m^2(t) \, dt
+Copiar<br><br><br><br><br><br><br><br>T_C \ll C R_L \ll T_m
+Copiar<br><br><br><br>
+<br><a class="internal-link" data-href="Transformada de Fourier.md" href="https://kebpericles.github.io/logsdekeso/formularios/transformada-de-fourier.html" target="_self" rel="noopener">Transformada de Fourier</a>
+]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/modulación-am.html</link><guid isPermaLink="false">formularios/Modulación AM.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:56 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(n\omega_0 t) + b_n \sin(n\omega_0 t) \right]
+Copiar<br><br><br><br><br><br><br>a_0 = \frac{2}{T} \int_{0}^{T} f(t) \, dt
+Copiar<br><br><br><br><br><br>a_n = \frac{2}{T} \int_{0}^{T} f(t) \cos(n\omega_0 t) \, dt
+Copiar<br><br><br><br><br><br>b_n = \frac{2}{T} \int_{0}^{T} f(t) \sin(n\omega_0 t) \, dt
+Copiar<br><br><br><br><br><br><br>f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(n\omega_0 t)
+Copiar<br><br><br><br><br><br><br>f(t) = \sum_{n=1}^{\infty} b_n \sin(n\omega_0 t)
+Copiar<br><br><br><br><br><br><br>f(t) = \sum_{n=-\infty}^{\infty} c_n e^{jn\omega_0 t}
+Copiar<br><br><br><br><br><br><br>c_{0} = \frac{1}{T} \int_{0}^{T} f(t) \, dt
+Copiar<br><br><br><br><br><br>c_n = \frac{1}{T} \int_{0}^{T} f(t) e^{-jn\omega_0 t} \, dt
+Copiar<br><br><br><br><br><br>c_{-n} = c_{n}^{*}
+Copiar<br><br><br><br><br><br><br>a_n = c_n + c_{-n}
+Copiar<br><br><br><br><br><br>b_n = j\left[ c_{n} - c_{-n} \right]
+Copiar<br><br><br><br><br><br>c_n = \frac{ a_n - jb_n}{2}
+Copiar<br><br><br><br><br><br>c_{-n} = \frac{a_n + jb_n}{2}
+Copiar<br><br>]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/series-de-fourier.html</link><guid isPermaLink="false">formularios/Series de Fourier.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:56 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br>F(\omega) = \int_{-\infty}^{\infty} f(t) \cdot e^{-j\omega t} \, dt
+Copiar<br><br><br>F(\omega) = \int_{-\infty}^{\infty} f(t) \cdot e^{-j\omega t} \, dt
+Copiar<br><br><br><br>f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) \cdot e^{j\omega t} \, d\omega
+Copiar<br><br><br>f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) \cdot e^{j\omega t} \, d\omega
+Copiar<br><br><br><br><br>\mathcal{F}\{af(t) + bg(t)\} = aF(\omega) + bG(\omega)
+Copiar<br><br><br>\mathcal{F}\{af(t) + bg(t)\} = aF(\omega) + bG(\omega)
+Copiar<br><br><br><br>\mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}
+Copiar<br><br><br>\mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}
+Copiar<br><br><br><br>\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)
+Copiar<br><br><br>\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)
+Copiar<br><br><br><br><br><br><br>F(-\omega) = F^*(\omega)
+Copiar<br><br><br><br><br>
+<br>Convolución de Tiempo Continuo y el CTFT. (2022, October 30). Rice University. <a rel="noopener" class="external-link" href="https://espanol.libretexts.org/@go/page/86343" target="_blank">https://espanol.libretexts.org/@go/page/86343</a>
+<br><br>\mathcal{F}\left\{f * g\right\} =  \mathcal{F}\left\{f\right\} \cdot \mathcal{F}\left\{g\right\}
+Copiar<br><br><br>\mathcal{F}\left\{f * g\right\} =  \mathcal{F}\left\{f\right\} \cdot \mathcal{F}\left\{g\right\}
+Copiar<br><br><br><br>\mathcal{F}\left\{f \cdot g\right\} = \frac{1}{2\pi} \mathcal{F}\left\{f\right\} * \mathcal{F}\left\{g\right\}
+Copiar<br><br><br>\mathcal{F}\left\{f \cdot g\right\} = \frac{1}{2\pi} \mathcal{F}\left\{f\right\} * \mathcal{F}\left\{g\right\}
+Copiar<br><br><br><br>
+<br><a class="internal-link" data-href="Series de Fourier.md" href="https://kebpericles.github.io/logsdekeso/formularios/series-de-fourier.html" target="_self" rel="noopener">Series de Fourier</a>
+<br><a class="internal-link" data-href="Variable compleja.md" href="https://kebpericles.github.io/logsdekeso/formularios/variable-compleja.html" target="_self" rel="noopener">Variable compleja</a>
+]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/transformada-de-fourier.html</link><guid isPermaLink="false">formularios/Transformada de Fourier.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:57 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br><br>
+<br>Identidades triángulo unitario
+<br><br>
+<br><a rel="noopener" class="external-link" href="https://www.matesfacil.com/ESO/trigonometria/identidades/identidades-trigonometricas-demostraciones-ejemplos.html" target="_blank">https://www.matesfacil.com/ESO/trigonometria/identidades/identidades-trigonometricas-demostraciones-ejemplos.html</a> En la sección (3. Demostraciones) del inciso 1 al 3
+<br><br><br><br><br>\sin^2(t) + \cos^2(t) = 1
+Copiar<br><br><br><br>
+<br>Seno al cuadrado
+<br>Coseno al cuadrado
+<br><br><br><br><br>\sec^2(t) - \tan^2(t) = 1
+Copiar<br><br><br><br>
+<br>Tangente al cuadrado
+<br><br><br><br><br>\csc^2(t) - \cot^2(t) = 1
+Copiar<br><br><br><br>
+<br>Cotangente al cuadrado
+<br><br><br><br><br>\cos(2t) = 2 \cos^2(t) - 1
+Copiar<br><br><br><br>
+<br>Coseno al cuadrado
+<br>]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/trigonometría.html</link><guid isPermaLink="false">formularios/Trigonometría.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:57 GMT</pubDate></item><item><title><![CDATA[Fórmulas]]></title><description><![CDATA[ 
+ <br><br><br>e^{ix}=\cos x+i\, \sin x
+Copiar<br><br><br>e^{ix}=\cos x+i\, \sin x
+Copiar<br><br><br><br>z^{*} = Re \{ z \} - j Im \{ z \}
+Copiar<br><br><br>z^{*} = Re \{ z \} - j Im \{ z \}
+Copiar<br><br><br><br><br><br><br><br> \sin x={e^{jx}-e^{-jx} \over 2j}
+Copiar<br><br><br><br><br><br><br> \cos x={e^{jx}+e^{-jx} \over 2}
+Copiar<br><br><br>]]></description><link>https://kebpericles.github.io/logsdekeso/formularios/variable-compleja.html</link><guid isPermaLink="false">formularios/Variable compleja.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sun, 22 Sep 2024 01:04:59 GMT</pubDate></item><item><title><![CDATA[Logs de keso]]></title><description><![CDATA[ 
  ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sat, 21 Sep 2024 20:15:38 GMT</pubDate></item><item><title><![CDATA[Oscilador Armónico Simple]]></title><description><![CDATA[ 
  <br>Soluciones <br><br><br><br><br><br><br><br>Tags:]]></description><link>oscilador-armónico-simple.html</link><guid isPermaLink="false">Oscilador Armónico Simple.md</guid><dc:creator><![CDATA[Kesadilla]]></dc:creator><pubDate>Sat, 21 Sep 2024 23:07:22 GMT</pubDate></item></channel></rss>
